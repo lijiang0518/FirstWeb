@@ -1,0 +1,39 @@
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7; 
+  }
+
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  img {
+    width:600px;
+    display: block;
+    margin: 0 auto;
+  }
+  /*把图像居中来使页面更美观。可以复用 body 的 margin: 0 auto ，但是需要一点点调整。 
+  <body> 元素是块级元素，意味着它占据了页面的空间并且能够赋予外边距和其他改变间距的值。
+  而图片是内联元素，不具备块级元素的一些功能。所以为了使图像有外边距，我们必须使用 display: block 给予其块级行为。*/
+
+  h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    font-size: 80px;
+    text-align: center;
+  }
+
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
